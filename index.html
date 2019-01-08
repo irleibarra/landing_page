@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Product Landing Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </head>
+    <body>
+        <div id="all-container">
+            <!-- HEADER -->
+            <header id="header">
+                <div class="logo">
+                    <img id="header-img" src="https://www.google.es/url?sa=i&rct=j&q=&esrc=s&source=images&c
+                    d=&cad=rja&uact=8&ved=2ahUKEwiFgMPR_97fAhWnnuAKHR-cCpAQjRx6BAgBEAU&url=https%3A%2F%2Fhub
+                    .docker.com%2Fsearch%3Ftype%3Dedition%26offering%3Denterprise&psig=AOvVaw1JNsOXRZy-0Ry7-
+                    8dMD6fr&ust=1547064793944189"
+                    alt="Docker"/>
+                </div>
+                
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a href="#why-docker" class="nav-link">Why Docker?</a></li>
+                        <li><a href="#solutions" class="nav-link">Solutions</a></li>
+                        <li><a href="#products" class="nav-link">Products</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div id="container">
+                <!-- Why Docker -->
+                <section id="why-docker">
+                    <h2>Why Docker?</h2>
+                    <p>Docker unlocks the potential of your organization by giving developers and IT the freedom to build,
+                       manage and secure business-critical applications without the fear of technology or infrastructure lock-in.
+                       By combining its industry-leading container engine technology, an enterprise-grade container platform and 
+                       world-class services, Docker enables you to bring traditional and cloud native applications built on Windows
+                       Server, Linux and mainframe into an automated and secure supply chain, advancing dev to ops collaboration and 
+                       reducing time to value.
+                       Because Docker increases productivity and reduces the time it takes to bring applications to market, you now 
+                       have the resources needed to invest in key digitization projects that cut across the entire value chain, such 
+                       as application modernization, cloud migration and server consolidation. With Docker, you have the solution 
+                       that helps you manage the diverse applications, clouds and infrastructure you have today while providing your 
+                       business a path forward to future applications.</p>
+                </section>
+
+                 <!-- EMAIL -->
+                <section id="submit-email">
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                        <input name="email" id="email" type="email" placeholder="Enter your email address" 
+                        required/>
+                        <br>
+                        <input id="submit" type="submit" value="Submit" class="btn"/>
+                    </form>
+                </section>
+    
+                
+                <!-- Solutions -->
+                <section id="solutions">
+                    <h2>Solutions</h2>
+                    <iframe id="video" src="https://www.youtube.com/watch?v=LF5f_cUZw_I" height="315" 
+                    allowfullscreen></iframe>
+                </section>
+    
+                <!-- Products -->
+                <section id="products">
+                    <div class="products" id="docker-enterprise">
+                        <div class="prod">Docker Enterprise</div>
+                        <p>Manage your entire application portfolio of traditional 
+                           applications, cutting-edge microservices and Big Data apps 
+                           and deploy them anywhere</p>
+                    </div>
+
+                    <div class="products" id="docker-engine">
+                        <div class="prod">Docker Engine</div>
+                        <p>Docker Engine Sparked the Containerization Movement,
+                           powers millions of applications worldwide, providing a 
+                           standardized packaging format for diverse applications</p>
+                    </div>
+
+                    <div class="products" id="docker-hub">
+                        <div class="prod">Docker Hub</div>
+                        <p>The world’s leading container content library and ecosystem</p>
+                    </div>
+                </section>
+            </div>
+
+            <footer>
+                <span>Coded by Irlenys Ibarra, 2019.</span>
+            </footer>
+        </div>
+    </body>
+</html>
